@@ -18,7 +18,8 @@ const LETTER = {
     
   ],
   // Change photo paths here. Empty strings keep the soft placeholder.
-  photos: ['./photo1.jpg', './photo2.jpg', './photo3.jpg'],
+  // Public assets use root-relative URLs and exact filename casing (hosting is case-sensitive).
+  photos: ['/Photo1.jpg', '/Photo2.jpg', '/Photo3.jpg'],
   // Change the photobooth caption here.
   photoCaption: 'us • 10.26.26',
   music: '',
